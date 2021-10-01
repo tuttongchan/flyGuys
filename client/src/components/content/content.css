@@ -1,0 +1,14 @@
+.content-container {
+    padding: 8rem 25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.first-desc {
+    width: 80%;
+}
+
+.second-desc {
+    width: 80%;
+}
