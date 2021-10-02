@@ -5,8 +5,13 @@
     grid-gap: 1rem;
 }
 
-.first-desc {
+.content-left-heading {
+    margin-bottom: 2rem;
+}
+
+.content-first-desc {
     width: 80%;
+    margin-bottom: 2rem;
 }
 
 .second-desc {

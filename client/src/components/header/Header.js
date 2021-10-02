@@ -32,24 +32,24 @@ import bird28 from '../../imgs/bird_images/28.png';
 import bird29 from '../../imgs/bird_images/29.png';
 import bird30 from '../../imgs/bird_images/30.png';
 import bird31 from '../../imgs/bird_images/31.png';
-import bird32 from '../../imgs/bird_images/32.png';
-import bird33 from '../../imgs/bird_images/33.png';
-import bird34 from '../../imgs/bird_images/34.png';
-import bird35 from '../../imgs/bird_images/35.png';
-import bird36 from '../../imgs/bird_images/36.png';
-import bird37 from '../../imgs/bird_images/37.png';
-import bird38 from '../../imgs/bird_images/38.png';
-import bird39 from '../../imgs/bird_images/39.png';
-import bird40 from '../../imgs/bird_images/40.png';
-import bird41 from '../../imgs/bird_images/41.png';
-import bird42 from '../../imgs/bird_images/42.png';
-import bird43 from '../../imgs/bird_images/43.png';
-import bird44 from '../../imgs/bird_images/44.png';
-import bird45 from '../../imgs/bird_images/45.png';
-import bird46 from '../../imgs/bird_images/46.png';
-import bird47 from '../../imgs/bird_images/47.png';
-import bird48 from '../../imgs/bird_images/48.png';
-import bird49 from '../../imgs/bird_images/49.png';
+// import bird32 from '../../imgs/bird_images/32.png';
+// import bird33 from '../../imgs/bird_images/33.png';
+// import bird34 from '../../imgs/bird_images/34.png';
+// import bird35 from '../../imgs/bird_images/35.png';
+// import bird36 from '../../imgs/bird_images/36.png';
+// import bird37 from '../../imgs/bird_images/37.png';
+// import bird38 from '../../imgs/bird_images/38.png';
+// import bird39 from '../../imgs/bird_images/39.png';
+// import bird40 from '../../imgs/bird_images/40.png';
+// import bird41 from '../../imgs/bird_images/41.png';
+// import bird42 from '../../imgs/bird_images/42.png';
+// import bird43 from '../../imgs/bird_images/43.png';
+// import bird44 from '../../imgs/bird_images/44.png';
+// import bird45 from '../../imgs/bird_images/45.png';
+// import bird46 from '../../imgs/bird_images/46.png';
+// import bird47 from '../../imgs/bird_images/47.png';
+// import bird48 from '../../imgs/bird_images/48.png';
+// import bird49 from '../../imgs/bird_images/49.png';
 
 const Header = () => {
   const birds = [
@@ -99,9 +99,9 @@ const Header = () => {
   return (
     <header>
       <div className="birds-container">
-        {birds.map((item) => (
+        {birds.map((item, i) => (
           <div>
-            <img key={item} src={item} alt="" />
+            <img key={i} src={item} alt="" />
           </div>
         ))}
       </div>

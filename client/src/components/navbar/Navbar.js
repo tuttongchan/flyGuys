@@ -5,14 +5,15 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo-container">
-        <h1>FlyGuys</h1>
+        <i className="fas fa-kiwi-bird"></i>
+        <h1 className="logo-name">FlyGuys</h1>
       </div>
       <div className="socials-container">
         <button className="discord-button">
-          <i class="fab fa-discord"></i>
+          <i className="fab fa-discord"></i>
         </button>
         <button className="twitter-button">
-          <i class="fab fa-twitter"></i>
+          <i className="fab fa-twitter"></i>
         </button>
         <button className="connect-wallet-button">Connect Wallet</button>
       </div>

@@ -6,6 +6,20 @@ nav {
   align-items: center;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+/* --- Icons --- */
+.fa-kiwi-bird {
+  font-size: 1.4rem;
+}
+
+.logo-name {
+  margin-left: .6rem;
+}
+
 .socials-container {
   display: flex;
   justify-content: space-between;
