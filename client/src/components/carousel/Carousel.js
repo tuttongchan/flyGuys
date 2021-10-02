@@ -27,30 +27,47 @@ const Carousel = () => {
   ];
 
   const [current, setCurrent] = useState(0);
+  const [pace, setPace] = useState(true)
   const length = slides.length;
 
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
-  console.log(current);
-
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
-
+  // Check for Array in case of Error
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
 
+  const carouselTimer = pace ? setTimeout(() => nextSlide(), 1800) : null
+
+  const nextSlide = () => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
+  };
+
+  const nextSlideClick = () => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
+    setPace(false)
+  };
+
+  const prevSlideClick = () => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
+    setPace(false)
+  };
+
   return (
     <div className="carousel-container">
-      <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-      <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
       {slides.map((slide, index) => (
-        <div className={index === current ? 'slide active' : 'slide'} key={index}>
+        <div
+          className={index === current ? 'slide active' : 'slide'}
+          key={index}
+        >
           {index === current && <img src={slide} alt="" className="image" />}
         </div>
       ))}
+      <div className="arrows-container">
+        <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlideClick} />
+        <FaArrowAltCircleRight
+          className="right-arrow"
+          onClick={nextSlideClick}
+        />
+      </div>
     </div>
   );
 };
