@@ -40,7 +40,8 @@
 .right-arrow {
   margin-left: 0.5rem;
   font-size: 4rem;
-  color: #000;
+  /* color: #000; */
+  color: #fff;
   z-index: 10;
   cursor: pointer;
 }
@@ -48,7 +49,8 @@
 .left-arrow {
   margin-right: 0.5rem;
   font-size: 4rem;
-  color: #000;
+  /* color: #000; */
+  color: #fff;
   z-index: 10;
   cursor: pointer;
 }

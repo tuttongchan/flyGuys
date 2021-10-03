@@ -4,6 +4,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #000;
 }
 
 .logo-container {
@@ -11,40 +12,81 @@ nav {
   align-items: center;
 }
 
-/* --- Icons --- */
-.fa-kiwi-bird {
-  font-size: 1.4rem;
-}
-
 .logo-name {
+  font-size: 2rem;
   margin-left: 0.6rem;
+  color: #fff;
 }
 
 .socials-container {
   display: flex;
   justify-content: space-between;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
 }
 
+/* --- Icons --- */
+.fa-kiwi-bird {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.fa-discord,
+.fa-twitter {
+  font-size: 1.4rem;
+}
+
+.fa-discord {
+  color: #7289da;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+/* --- Buttons --- */
 .discord-button {
   padding: 0.6rem 0.9rem;
   margin-left: 0.8rem;
   cursor: pointer;
+  background-color: #000;
+  border: 1px solid #fff;
+  transition-duration: 0.3s;
+}
+
+.discord-button:hover {
+  background-color: #fff;
+  transform: scaleY(100%);
 }
 
 .twitter-button {
   padding: 0.6rem 0.9rem;
   margin-left: 0.8rem;
   cursor: pointer;
+  background-color: #000;
+  border: 1px solid #fff;
+  transition-duration: 0.3s;
+}
+
+.twitter-button:hover {
+  background-color: #fff;
+  transform: scaleY(100%);
 }
 
 .connect-wallet-button {
   font-family: 'Space Grotesk', sans-serif;
-  /* text-transform: uppercase; */
   font-size: 1.1rem;
-  /* letter-spacing: 1px; */
   font-weight: 500;
   padding: 0.6rem 0.9rem;
   margin-left: 0.8rem;
+  color: #fff;
+  border: 1px solid rgb(181, 130, 244);
+  background-color: rgb(181, 130, 244);
   cursor: pointer;
+  transition: 0.3s all;
+}
+
+.connect-wallet-button:hover {
+  border: 1px solid rgb(181, 130, 244);
+  background-color: #fff;
+  color: rgb(181, 130, 244);
 }

@@ -1,7 +1,7 @@
 header {
-  height: 90vh;
+  height: 100%;
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 img {
@@ -12,6 +12,7 @@ img {
 .birds-container {
   display: grid;
   /* grid-template-columns: repeat(8, 1fr); */
-  grid-template-columns: repeat(8, minmax(200px, 300px));
+  grid-template-columns: repeat(8, minmax(200px, 500px));
+  /* grid-template-columns: repeat(8, minmax(200px, 1fr)); */
   grid-template-rows: repeat(4, 1fr);
 }
