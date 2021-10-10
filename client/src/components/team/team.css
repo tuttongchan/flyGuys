@@ -1,0 +1,7 @@
+.team-container {
+    padding: 3rem;
+    background-color: rgb(3, 3, 16);
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

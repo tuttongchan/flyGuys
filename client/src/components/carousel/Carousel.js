@@ -27,7 +27,7 @@ const Carousel = () => {
   ];
 
   const [current, setCurrent] = useState(0);
-  const [pace, setPace] = useState(true)
+  const [pace, setPace] = useState(true);
   const length = slides.length;
 
   // Check for Array in case of Error
@@ -35,7 +35,7 @@ const Carousel = () => {
     return null;
   }
 
-  const carouselTimer = pace ? setTimeout(() => nextSlide(), 1800) : null
+  const carouselTimer = pace ? setTimeout(() => nextSlide(), 1000) : null
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
@@ -43,12 +43,12 @@ const Carousel = () => {
 
   const nextSlideClick = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
-    setPace(false)
+    setPace(false);
   };
 
   const prevSlideClick = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
-    setPace(false)
+    setPace(false);
   };
 
   return (
