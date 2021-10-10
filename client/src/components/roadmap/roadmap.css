@@ -1,0 +1,66 @@
+.roadmap-container {
+  /* height: 100vh; */
+  padding: 10rem;
+  object-fit: cover;
+  color: #fff;
+  /* background-color: navy; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url('https://images.pexels.com/photos/2569232/pexels-photo-2569232.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  /* background-image: url('https://images.pexels.com/photos/2569232/pexels-photo-2569232.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+}
+
+/* Road Map Top Container */
+.roadmap-top-container {
+  margin-bottom: 3rem;
+}
+
+.roadmap-top-container h5 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.roadmap-top-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.roadmap-top-desc {
+  width: 70%;
+}
+
+/* Road Map Bottom Container */
+.roadmap-bottom-container {
+  width: 100%;
+}
+
+.roadmap-details-left {
+  display: flex;
+}
+
+.roadmap-details-right {
+  display: flex;
+}
+
+.roadmap-details {
+  display: flex;
+  width: 80%;
+}
+
+.roadmap-bottom-desc {
+  width: 60%;
+  margin-bottom: 1.8rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.roadmap-bottom-desc span {
+  font-size: 2rem;
+}
+
+.roadmap-bottom-desc p {
+  text-align: left;
+}
+
+.fa-feather {
+  font-size: 3rem;
+}

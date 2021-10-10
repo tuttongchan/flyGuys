@@ -1,0 +1,56 @@
+.carousel-container {
+  /* padding: 5rem 10rem; */
+  /* position: relative; */
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container:focus {
+  outline: none;
+}
+
+/* .slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.image {
+  /* width: 1000px; */
+  /* height: 600px; */
+  width: 100%;
+  border-radius: 10px;
+  font-size: 3rem;
+}
+
+.image:focus {
+  outline: none;
+}
+
+.arrows-container {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.right-arrow {
+  margin-left: 0.5rem;
+  font-size: 4rem;
+  /* color: #000; */
+  color: #fff;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.left-arrow {
+  margin-right: 0.5rem;
+  font-size: 4rem;
+  /* color: #000; */
+  color: #fff;
+  z-index: 10;
+  cursor: pointer;
+}
