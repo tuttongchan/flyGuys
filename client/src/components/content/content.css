@@ -13,6 +13,8 @@
 
 .content-left-heading h1 {
   /* color: #fff; */
+  font-size: 3rem;
+  font-weight: 700;
   background: linear-gradient(to right, #ee0979, #ff6a00);
   background-clip: text;
   -webkit-text-fill-color: transparent;

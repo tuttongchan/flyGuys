@@ -1,6 +1,7 @@
 nav {
   height: 10vh;
-  padding: 3rem 24rem;
+  /* padding: 3rem 24rem; */
+  padding: 0 15rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +22,6 @@ nav {
 .socials-container {
   display: flex;
   justify-content: space-between;
-  /* background-color: chartreuse; */
 }
 
 /* --- Icons --- */
@@ -79,8 +79,10 @@ nav {
   padding: 0.6rem 0.9rem;
   margin-left: 0.8rem;
   color: #fff;
-  border: 1px solid rgb(181, 130, 244);
-  background-color: rgb(181, 130, 244);
+  /* border: 1px solid rgb(181, 130, 244); */
+  /* background-color: rgb(181, 130, 244); */
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
   cursor: pointer;
   transition: 0.3s all;
 }
