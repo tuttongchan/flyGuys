@@ -8,8 +8,8 @@ const Content = () => {
       <div className="content-left-container">
         <div className="content-left-desc">
           <div className="content-left-heading">
-            <h1>50 unique Mekas</h1>
-            <h1>who need Drivers.</h1>
+            <h1>50 unique FlyGuys</h1>
+            <h1>who need Owners.</h1>
           </div>
           <p className="content-first-desc">
             The FlyGuys is a collection of 8,888 generative Birds with

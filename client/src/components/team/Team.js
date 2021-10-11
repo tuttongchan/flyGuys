@@ -29,7 +29,7 @@ const Team = () => {
           Hi! Tut is currently focusing on focusing on the implementation on the
           Art & Tech side. We have been working hard to establish our own style,
           and we're continuously looking for new ways to push ourselves. We also
-          work with other brands.
+          work with other brands. We will continue to try our best!
         </p>
       </div>
     </div>
