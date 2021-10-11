@@ -3,10 +3,8 @@
   padding: 10rem;
   object-fit: cover;
   color: #fff;
-  /* background-color: navy; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
     url('https://images.pexels.com/photos/2569232/pexels-photo-2569232.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  /* background-image: url('https://images.pexels.com/photos/2569232/pexels-photo-2569232.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
 }
 
 /* Road Map Top Container */
@@ -63,4 +61,36 @@
 
 .fa-feather {
   font-size: 3rem;
+}
+
+/* --- Media Queries --- */
+
+@media only screen and (max-width: 950px) {
+  .roadmap-container {
+    padding: 5rem;
+  }
+
+  .roadmap-details {
+    width: 100%;
+  }
+
+  .roadmap-bottom-desc {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .roadmap-top-desc p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .roadmap-container {
+    padding: 4rem;
+  }
+
+  .roadmap-top-desc p {
+    display: none;
+  }
 }

@@ -10,14 +10,9 @@ const Header = () => {
 
   const handleSubtract = () => {
     setCount((prev) => (prev -= 1));
-
-    // if (count < 0) {
-    //   count === 0;
-    // }
   };
 
   const handleAdd = () => {
-    // setCount((prev) => (count += prev));
     setCount((prev) => (prev += 1));
   };
 
@@ -39,11 +34,6 @@ const Header = () => {
             <button className="mint-button">Mint FlyGuys</button>
           </div>
         </div>
-        {/* {birds.map((item) => (
-          <div>
-            <img key={i} src={item} alt="Generated birds" />
-          </div>
-        ))} */}
       </div>
     </header>
   );

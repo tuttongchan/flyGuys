@@ -1,6 +1,5 @@
 import React from 'react';
 import './content.css';
-import bird0 from '../../imgs/bird_images/0.png';
 import Carousel from '../carousel/Carousel';
 
 const Content = () => {
@@ -24,7 +23,6 @@ const Content = () => {
         </div>
       </div>
       <div className="content-right-container">
-        {/* <img src={bird0} alt="" /> */}
         <Carousel />
       </div>
     </div>

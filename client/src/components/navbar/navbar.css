@@ -79,8 +79,6 @@ nav {
   padding: 0.6rem 0.9rem;
   margin-left: 0.8rem;
   color: #fff;
-  /* border: 1px solid rgb(181, 130, 244); */
-  /* background-color: rgb(181, 130, 244); */
   border: 1px solid blueviolet;
   background-color: blueviolet;
   cursor: pointer;
@@ -91,4 +89,27 @@ nav {
   border: 1px solid rgb(181, 130, 244);
   background-color: #fff;
   color: rgb(181, 130, 244);
+}
+
+/* --- Media Queries --- */
+@media only screen and (max-width: 1200px) {
+  nav {
+    padding: 0 10rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  nav {
+    padding: 0 7rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  nav {
+    justify-content: center;
+  }
+
+  .logo-container {
+    display: none;
+  }
 }
