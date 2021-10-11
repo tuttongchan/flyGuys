@@ -12,13 +12,11 @@ const Content = () => {
             <h1>who need Drivers.</h1>
           </div>
           <p className="content-first-desc">
-            The MekaVerse is a collection of 8,888 generative Mekas with
-            hundreds of elements inspired by the Japan Mecha universes.
+            The FlyGuys is a collection of 8,888 generative Birds with
+            hundreds of elements inspired by other bit projects.
           </p>
           <p className="content-second-desc">
-            Each artwork is original, with its own color palette and creation.
-            The objective was to make each Meka unique in order to prioritize
-            quality above quantity.
+            Each artwork is generated with its own color palette and creation, by minting you have a chance of getting a common bird, woodpecker, jay, eagle, or cockatoo.
           </p>
         </div>
       </div>

@@ -24,19 +24,12 @@ const Team = () => {
               <img src={peopleImg} alt="" className="people-image" />
             </div>
           </div>
-          {/* <div>
-            <h1 className="team-heading-1">Who are we?</h1>
-            <h1 className="team-heading-2">Creative teams</h1>
-          </div>
-          <div>
-            <img src={peopleImg} alt="" className="people-image" />
-          </div> */}
         </div>
         <p className="team-desc">
-          Hi! Mattey & Matt. B are two friends currently focusing on 3D & Art
-          direction. We have been working hard to establish our own style, and
-          we're continuously looking for new ways to push ourselves. We also
-          worked with Apple, Microsoft, MTV, Adobe, Adidas, Nike and more!
+          Hi! Tut is currently focusing on focusing on the implementation on the
+          Art & Tech side. We have been working hard to establish our own style,
+          and we're continuously looking for new ways to push ourselves. We also
+          work with other brands.
         </p>
       </div>
     </div>

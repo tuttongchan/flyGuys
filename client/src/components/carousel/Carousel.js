@@ -35,7 +35,12 @@ const Carousel = () => {
     return null;
   }
 
-  const carouselTimer = pace ? setTimeout(() => nextSlide(), 1000) : null
+  const carouselTimer = () => {
+    if (pace) {
+      setTimeout(() => nextSlide(), 1000);
+    }
+  };
+  carouselTimer()
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
@@ -58,7 +63,7 @@ const Carousel = () => {
           className={index === current ? 'slide active' : 'slide'}
           key={index}
         >
-          {index === current && <img src={slide} alt="" className="image" />}
+          {index === current && <img src={slide} alt="Fly Guys" className="image" />}
         </div>
       ))}
       <div className="arrows-container">

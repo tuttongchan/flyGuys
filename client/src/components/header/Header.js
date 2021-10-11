@@ -4,10 +4,6 @@ import './header.css';
 const Header = () => {
   const [count, setCount] = useState(0);
 
-  const detectChange = () => {
-    setCount((prev)=> count < 0 ? count === 0 : null )
-  }
-
   const handleSubtract = () => {
     setCount((prev) => (prev -= 1));
   };
