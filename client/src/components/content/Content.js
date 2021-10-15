@@ -12,7 +12,7 @@ const Content = () => {
             <h1>who need Owners.</h1>
           </div>
           <p className="content-first-desc">
-            The FlyGuys is a collection of 8,888 generative Birds with
+            The FlyGuys is a collection of 50 generative Birds with
             hundreds of elements inspired by other bit projects.
           </p>
           <p className="content-second-desc">
